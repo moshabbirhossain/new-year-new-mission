@@ -249,7 +249,7 @@ main{
 .input{
     align-items: center;
     display: flex;
-    padding: 48px 335px 80px;
+    padding: 48px 400px 80px;
 }
 .email{
     /* text-align: start; */
