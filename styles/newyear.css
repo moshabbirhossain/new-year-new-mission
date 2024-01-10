@@ -243,6 +243,7 @@ footer{
     gap: 24px;
     padding: 48px;
 }
+/* footer related styles */
 .footer{
     display: flex;
     /* gap: 50%; */
