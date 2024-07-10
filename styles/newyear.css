@@ -5,7 +5,7 @@ header{
 .banner{
     text-align: center;
     background-image: url('../images/Banner\ Image.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 16px;
