@@ -1,11 +1,9 @@
 header{
-    width: 1320px;
-    margin: 50px 140px 120px;
+    width: full;
+    margin: 0 140px;
 }
 .banner{
     text-align: center;
-    /* width: 1320px; */
-    height: 700px;
     background-image: url('../images/Banner\ Image.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -17,17 +15,17 @@ header{
     color: #FFF;
     font-size: 32px;
     font-weight: 400;
-    padding: 177px 530px 16px;
+    padding-top: 40px;
 }
 .banner-title-main{
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
-    padding: 0 344px 400px;
+    padding: 0 50px 135px;
 }
 main{
     margin: 0 140px 120px;
-    width: 1320px;
+    width: full;
 }
 /* offer-section related styles */
 .offer{
@@ -40,28 +38,32 @@ main{
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    padding: 0 468px 48px;
+    margin: 0 auto 48px;
     width: 383px;
     height: 107px;
 }
 .offer-des{
-    width: 400px;
+    width: full;
     height: 30px;
     color: #F00;
     font-size: 24px;
     font-weight: 500;
-    padding: 0 462px 15px;
+    padding: 0 auto 15px;
 }
 .offer-cat{
-    width: 410px;
+    width: full;
     height: 58px;
     color: #070211;
     font-size: 48px;
     font-weight: 700;
-    padding: 0 450px 45px;
+    padding: 0 auto 45px;
 }
 .img{
-    padding: 0 260px 0;
+    margin: 0 10%;
+}
+.img:hover{
+    border: 0px solid purple;
+    background-color: purple;
 }
 .welcome-section{
     margin-bottom: 120px;
@@ -69,7 +71,7 @@ main{
 .welcome{
     display: flex;
     gap: 40px;
-    /* width: 1320px; */
+    width: full;
     height: 600px;
     background-image: url('../images/Vector.png');
     background-size: contain;
@@ -80,23 +82,18 @@ main{
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    /* line-height: 88px; */
-    /* letter-spacing: 7px; */
-    padding: 100px 95px 20px 125px;
+    margin: 80px 0 0 125px;
 }
 .welcome-des{
-    padding: 0 40px 48px 125px;
+    padding: 0 40px 20px 125px;
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
 }
 .btn-primary{
-    margin-left: 160px;
-    margin-right: 550px;
-    padding-bottom: 145px;
-    /* margin: 0 500px 500px 160px; */
+    margin-left: 175px;
     color: #FFF;
-    text-align: center;
+    text-align:center;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -108,18 +105,13 @@ main{
 
 /* address section created successfully */
 .offer-time{
-    /* width: 1320px; */
-    height: 480px;
-    margin-bottom: 120px;
+    width: full;
+    padding-top: 80px;
     text-align: center;
     background-color:antiquewhite;
-    /* background-size: contain; */
 }
 .offer-time-detail{
-    width: 600px;
-    height: 170px;
     text-align: center;
-    padding: 100px 385px 48px;
     font-size: 32px;
     font-weight: 600;
 }
@@ -134,44 +126,41 @@ main{
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 5px;
-    margin: 0 575px 100px;
+    margin: 0 auto 100px;
     padding: 16px 32px;
 }
 /* What-is-functional sections related styles */
 .What-is-functional{
-    /* width: 1320px; */
-    margin-bottom: 120px;
+    width: full;
+    margin-top: 60px;
 }
 .functional{
     text-align: center;
 }
 .functional-title{
+    text-align: center;
     color: #070211;
     font-size: 24px;
     font-weight: 500;
-    padding: 0 530px 16px 525px;
-    width: 270px;
-    height: 30px;
+    padding: 0 auto 16px;
 }
 .functional-title-main{
-    width: 680px;
-    height: 100px;
+    width: full;
     font-size: 72px;
     font-weight: 900;
-    padding: 0 320px 20px 320px;
+    padding: 0 auto 20px;
 }
 .functional-title-main > span{
     color: #F00;
 }
 .functional-title-des{
-    width: 1000px;
     height: 90px;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 500;
-    padding: 0 160px 60px;
 }
 .picture{
+    width: full;
     display: flex;
     gap: 60px;
     padding-top: 85px;
@@ -185,7 +174,7 @@ main{
     background-position: bottom left, top right;
 }
 .portfolio-section{
-    margin-bottom: 120px;
+    width: full;
 }
 .portfolio-title{
     color: #F00;
@@ -207,49 +196,49 @@ main{
 }
 .images{
     display: flex;
-    /* justify-content: space-around; */
-    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     margin-bottom: 24px;
     border-radius: 16px;
-    width: 424px;
-    height: 450px;
+}
+.portfolio-section > img{
+    width: 335px;
 }
 .images > img:hover{
-    /* background-color: blue; */
-    border: 3px blue solid;
+    border: 2px blue solid;
+    border-radius: 16px;
 }
 .subscribe{
     text-align: center;
-    /* width: 1320px; */
-    height: 620px;
+    width: full;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
 .subscribe > img{
     width: 150px;
     height: 150px;
-    padding: 80px 585px 40px;
+    margin: 80px auto 40px;
 }
 .subs-title{
-    width: 520px;
+    width: full;
     height: 60px;
     color: #070211;
     font-size: 48px;
     font-weight: 900;
-    padding: 0 400px 22px;
+    padding: 0 auto 22px;
 }
 .subs-des{
-    width: 720px;
-    height: 60px;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
-    padding: 0 300px 48px;
+    padding: 0 150px;
 }
 .input{
-    align-items: center;
     display: flex;
-    padding: 48px 400px 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 48px auto 80px;
 }
 .email{
     /* text-align: start; */
@@ -273,34 +262,17 @@ main{
 
 /* footer related styles */
 footer{
-    /* align-items: center; */
-    width: 1600px;
-    height: 610px;
+    width: full;
     background-color: #070211;
 }
 .address{
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
-    /* gap: 50%; */
-    /* padding: 0 550px 50px 0; */
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
 }
-.location{
-    /* text-align: left; */
-    padding-top: 120px ;
-    padding-bottom: 48px;
-    padding-left: 100px;
-
-}
 .contact{
-    /* text-decoration: none; */
-    /* text-align: right; */
-    padding-top: 120px ;
-    padding-bottom: 48px;
-    padding-right: 100px;
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
@@ -312,18 +284,17 @@ footer{
     font-weight: 500;
 }
 .social-links{
+    width: full;
     display: flex;
-    width: 24px;
-    height: 24px;
     align-items: center;
+    justify-content: center;
     gap: 12px;
-    padding: 48px 640px;
+    padding: 10px;
 }
 /* footer related styles */
-.footer{
+.footer-footer{
     display: flex;
     align-items: center;
-    /* gap: 50%; */
     justify-content: space-around;
 }
 .copy{
@@ -341,5 +312,9 @@ footer{
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
+}
+input::placeholder{
+    color: blue;
+    padding-left: 20px;
 }
 
