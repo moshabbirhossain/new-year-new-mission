@@ -202,7 +202,7 @@ main{
     margin-bottom: 24px;
     border-radius: 16px;
 }
-.portfolio-section > img{
+.pimg{
     width: 335px;
 }
 .images > img:hover{
@@ -210,6 +210,7 @@ main{
     border-radius: 16px;
 }
 .subscribe{
+    /* padding-bottom: 20px; */
     text-align: center;
     width: full;
     border-radius: 16px;
@@ -238,7 +239,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 48px auto 80px;
+    padding: 40px 0;
 }
 .email{
     /* text-align: start; */
